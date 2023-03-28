@@ -2,6 +2,7 @@ import networkx as nx
 import scanpy as sc
 import pandas as pd
 import scipy
+import numpy as np
 
 
 def SetNodeAttribute_G(G,adata,scaler=None,batch_key = "batch",inductive_transductive="inductive",HVG=4000):
