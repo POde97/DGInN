@@ -9,5 +9,6 @@ setup(
     author_email='paoloodeo.o@gmail.com',
     license='MIT license',
     packages=['DGInN'],
-    install_requires=['scanpy==1.9.3']
+    install_requires=['scanpy==1.9.3',
+                     'networkx==2.6.3']
 )
