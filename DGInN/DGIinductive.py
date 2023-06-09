@@ -72,7 +72,7 @@ class EncoderI(torch.nn.Module):
 
 class DeepGInfomaxI():
 
-  def __init__(self,G,ep,hidden = 256,HVG = 4000,Elayer = 3,attn = 4,siz=[5,10,15],batch = 512):
+  def __init__(self,G,ep,hidden = 256,HVG = 4000,Elayer = 3,attn = 4,siz=[5,10,15],batch = 512,patience=3):
     
     #Data Loader
     self.data = G
@@ -100,7 +100,7 @@ class DeepGInfomaxI():
 
 
     last_loss = 100
-    patience = 3
+    #patience = 
     triggertimes = 0
     listofmodel=[]
     self.LL=[]
