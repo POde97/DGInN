@@ -1,5 +1,4 @@
 #Attention Visualization function 
-#wrapped by CellVGAE Buterez et al https://github.com/davidbuterez/CellVGAE
 import numpy as np 
 import torch
 from scipy.stats import entropy
